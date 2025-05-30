@@ -14,3 +14,7 @@ function getPlugins() {
 export default defineConfig({
   plugins: getPlugins(),
 });
+export default defineConfig({
+  base: '/kevin2html.github.io/',  // ← 你项目的 GitHub 仓库名
+  plugins: [vue()]
+})
